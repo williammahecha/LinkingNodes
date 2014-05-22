@@ -1,0 +1,24 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 1;
+}
+
+@font-face{
+	font-family: "Open Sans";
+	src: url("../fonts/OpenSans-CondBold.ttf "); 
+	 font-weight: normal;
+	 font-style: normal;
+}
+	/* aqui  va el fondo */
+.fondo_cuerpo{
+	background: #FFFFFF  url(../img/bg6_5.jpg);
+}
+/* logo */
+.logo{
+	float: left;
+	height: 6.2em;	
+}
+
+
+
