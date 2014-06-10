@@ -1,0 +1,127 @@
+
+body {
+  font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+ 
+}
+input, textarea, select, label {
+  font-family: inherit;
+  font-size: 15px;
+  -moz-box-sizing: border-box;
+}
+
+.registro {
+  margin: 90px auto;
+  padding: 10px 35px;
+  width: 220px;
+  background: white;
+  border: 2px white;
+  border-radius: 5px;
+  box-shadow: 0 2px 9px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 2px 9px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 2px 9px rgba(0,0,0,0.9);
+}
+
+.registro > h1 {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+}
+ 
+.registro-input {
+  display: block;
+  margin-left: 0;
+  width: 100%;
+  height: 37px;
+  margin-bottom: 10px;
+  padding: 0 7px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: black;
+  text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+  -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+}
+
+.registro-input2 {
+  display: block;
+  width: 100%;
+  height: 37px;
+  margin-bottom: 3px;
+  padding: 0 9px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: black;
+  text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+  -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+}
+.registro-input:focus, .login-input2:focus {
+  outline: 0;
+  background-color: #fff;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 4px 1px rgba(255, 255, 255, 0.6);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 4px 1px rgba(255, 255, 255, 0.6);
+}
+.registro-submit {
+  margin-top: 15px;
+  font-weight:bolder; /*grosor de la letra*/
+  width: 100%;/*largo del botón*/
+  height:40px;
+  cursor: pointer;
+  border: 15px;
+  display: block;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+  background: black;
+  border: 1px solid #284473;
+  border-bottom-color: #223b66;
+  border-radius: 5px;
+}
+.registro-submit:active {
+  background: #a4c2f3;
+  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px rgba(255, 255, 255, 0.1);
+}
+.registro-submit:hover{
+  background-image: linear-gradient(to bottom, rgb(80, 80, 75), rgb(80, 80,70)); /*color que cambia al colocar el cursor*/
+}
+.login-help1 {
+  text-align: left;
+  margin-top: 0px;
+}
+.login-help1 > a {
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+.login-help1 > a:hover {
+  font-size: 13px;
+  text-decoration: underline;
+  color: blue;
+}
+.login-help2 {
+  text-align: center;
+  margin-top: 15px;
+}
+.login-help2 > a {
+  font-size: 13px;
+  text-decoration: underline;
+  color: black;
+}
+
+.login-help2 > a:hover {
+  font-size: 13px;
+  text-decoration: none;
+  color: blue;
+}
+
+
