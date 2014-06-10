@@ -1,21 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="Css/login.css">
-    <meta http-equiv="Refresh" content="5;url=http:registro">
-	<title>Red Social</title>
-    <link rel="shortcut icon" type="image/x-icon" href="icono.ico"/>    
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<title>Bienvenido a LinkingNodes</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/icono.ico"/>    
 </head>
 
-<body background="ff.png">
-    <form action="index.html" class="login">  
-        <h1>Login...</h1>        
-        <input type="email" name="email" class="login-input1" placeholder="Email Address" autofocus>        
-        <input type="password" name="password" class="login-input2" placeholder="Password">
-        <p class="login-help1"><a href="index.html">¿Olvidaste tu Contraseña?</a></p>
-        <input type="submit" value="Iniciar Sesión" class="login-submit">
-        <p class="login-help2"><a href="registro.html">¿No tienes cuenta?<b> Registrate</b></a></p>
+<body background="img/fondo.png">
+	<img src="img/logo1.png" alt="">
+	<p id="titulo"><b>LinkkingNodes</b></p>
+
+    <form action="php/login.php" id="cuadro-login" method="post">  
+        <h1>LinkingNodes</h1>        
+        <input type="email" name="email" id="caja-email" placeholder="Email Address" autofocus>        
+        <input type="password" name="contrasenia" id="caja-pass" placeholder="Password">
+        <p class="login-help1"><a href="por definir">¿Olvidaste tu Contraseña?</a></p>
+        <input type="submit" value="Iniciar Sesión" id="boton-inicio">
+        <p class="login-help2"><a href="formulario-registro.html">¿No tienes cuenta?<b> Registrate</b></a></p>
     </form>
 </body>
 </html>
