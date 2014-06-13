@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Bienvenido a LinkingNodes</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<link rel="shortcut icon" type="image/x-icon" href="img/icono.ico"/>  
+<link href="css/registro.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/flexslider.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+
+	<script>
+		$(window).load(function(){
+			$('.flexslider').flexslider();
+		});
+		</script>
+</head>
+
+<body>
+
+<header id="header">
+		<hgroup>
+			<figure class="imagen-logo">
+				<img src="img/logo1.png">
+			</figure>
+				<p id ="titulo"> <b>LinkingNodes</b></p>
+		</hgroup>		
+	</header>
+
+<div id="contenedor-1">
+	<div id="contenedor-2">
+		<article class="post clearfix">
+			<div class="flexslider">
+				<ul class="slides">
+					<li><img src="img/imagen1.png"></li>
+					<li><img src="img/imagen2.png"></li>
+					<li><img src="img/imagen3.png"></li>
+					<li><img src="img/imagen4.png"></li>
+					<li><img src="img/imagen5.png"></li>
+				</ul>
+			</div>
+		</article>  
+ 	</div>
+
+ 	<aside id="sidebar">
+		<section class="cuadro-formulario">
+			<h4 class="titulo-formulario">Formulario de Registro</h4>
+
+		<form action="php/registrar.php" id ="" method="post">              
+            <input type="text" name="nombre" class="registro-input" placeholder="Nombres" required="" autofocus>  
+            <input type="text" name="apellido" class="registro-input" placeholder="Apellidos" required="" autofocus>        
+            <input type="email" name="email" class="registro-input" placeholder="Email Address" required="" autofocus>        
+            <input type="password" name="contrasenia1" class="registro-input" placeholder="Password" required="">
+            <input type="password" name="contrasenia2" class="registro-input" placeholder="Confirmar Password" required="">       
+            <p class="login-help1"><b>Fecha de Nacimiento: </b></p>
+            <input type="date" name="calendario" class="registro-input" required="">
+            <p class="login-help1" ><b>Sexo: </b>
+            <input type="radio" name="sex" value="hombre" />Hombre
+		    <input type="radio" name="sex" value="mujer" />Mujer </p>
+            <input type="submit" value="Registrar" class="boton-registro"<a href="Login.html">
+            <p class="login-help2"><a href="login.html">Ya Tienes una Cuenta?<b> Inicia Sesión</b></a></p>
+        </form>
+		</section>		
+	</aside> 
+	
+	<footer id="footer">
+
+		<p>Derechos Reservados | Siguenos en: 
+		<img src="img/r_linkingnodes.png" title="Siguenos en LinkingNodes" height="35" width="35" class="footer-img" />
+		<img src="img/r_youtube.png" title="Siguenos en youtube" height="35" width="35" class="footer-img"/>
+		<img src="img/r_twitter.png" title="Siguenos en Twitter" height="35" width="35" class="footer-img"/>
+		<img src="img/r_facebook.png" title="Siguenos en Facebook" height="35" width="35" class="footer-img"/>
+		<img src="img/r_whatsapp.png" title="Siguenos en Whatsapp" height="35" width="35" class="footer-img"/>
+		<img src="img/r_google.png" title="siguenos en Google+" height="35" width="35" class="footer-img"/>
+		<img src="img/r_skype.png" title="Siguenos en Skype" height="35" width="35" class="footer-img"/>
+		<img src="img/r_gmail.png" title="Siguenos en Gmail" height="35" width="35" class="footer-img"/>
+		Políticas de Privacidad | Contáctenos
+		</p>
+	</footer>
+</div>
+</body>
+</html>

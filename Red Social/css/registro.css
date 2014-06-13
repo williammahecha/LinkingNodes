@@ -1,0 +1,240 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #FFFFFF;/*#0d1424 url(bg.jpg) repeat center top;*/
+	font: .81em/150% Arial, Helvetica, sans-serif;
+	color: #666;
+}
+
+#header {
+	position: relative;
+	height: 60px;
+	background: #005100 url(cabecera.png) repeat center top;;
+}
+
+#titulo {
+  	position: absolute;
+  	top: 15px;
+  	right: 1em;
+  	z-index: 100;
+  	font-size: 25px;
+  	color: #FFFFFF;
+}
+
+#contenedor-1 {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#contenedor-2 {
+	margin: 120px 0 30px;
+	padding: 00px 10px;
+	width: 600px;
+	float: left;
+	/* rounded corner */
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* box shadow */
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.9);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.9);
+	box-shadow: 0 1px 3px rgba(0,0,0,.9);
+}
+
+#sidebar {
+	width: 260px;
+	float: right;
+	margin: 60px 0 30px;
+	}
+
+#footer {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    clear: both;
+    color: #FFFFFF;
+    font-size: 90%;
+    text-align: center;   
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.5);
+	box-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.imagen-logo img {
+ 	width: 50px;
+  	margin-left: 3em;
+  	margin-top: 8px
+}
+
+.cuadro-formulario {
+	background: #FFFFFF;
+	margin: 0 0 30px;
+	padding: 10px 20px;
+	/* rounded corner */
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* box shadow */
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.9);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.9);
+	box-shadow: 0 1px 3px rgba(0,0,0,.9);
+}
+
+.titulo-formulario {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    color: #000000;
+    margin: 0 0 5px;
+    padding: 6px 0;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 2px 3px 3px rgba(0,0,0,.4);
+}
+
+.registro-input {
+	margin-left: -7px;
+  	display: block;
+  	font-size: 16px;
+  	width: 99%;
+  	height: 35px;
+  	margin-top: 10px;
+  	margin-bottom: 0px;
+  	padding: 0 8px;
+  	color: black;
+  	border: 1px black;
+  	border-radius: 5px;
+  	box-shadow: inset 0 1px 3px rgba(0,0,0,0.9);
+  	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.9);
+  	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.9);
+}
+
+.registro-input:focus {
+	-webkit-box-shadow: inset 0 1px 5px rgba(47, 233, 19, 0.9);
+  	box-shadow: inset 0 1px 5px rgba(21, 86, 11, 0.9);
+}
+
+.boton-registro {
+	font-size: 20px;
+  	margin-top: 20px;
+  	margin-left: -6px;
+  	font-weight:bolder; /*grosor de la letra*/
+  	width: 106%;/*largo del botón*/
+  	height:40px;
+  	cursor: pointer;
+  	border: 15px;
+  	display: block;
+  	color: #FFF;
+  	text-align: center; 
+  	background: #15560B;
+  	border-radius: 6px;
+}
+
+.boton-registro:hover {
+	background-image: linear-gradient(to bottom, rgb(16, 60, 9), rgb(16, 60,13)); /*color que cambia al colocar el cursor*/
+}
+
+.login-help1 {
+	text-align: left;
+  	margin-top: 10px;
+  	margin-left: -6px;
+  	margin-bottom: -8px;
+}
+
+.login-help2 {
+  	text-align: center;
+  	margin-top: 20px;
+  	margin-left: -6px;
+}
+
+.login-help2 > a {
+  	font-size: 17px;
+  	color: black;
+  	text-decoration: none;
+}
+
+.login-help2 > a:hover {
+  	font-size: 17px;
+  	text-decoration: underline;
+  	color: blue;
+}
+
+.footer-img{
+	vertical-align: middle;
+}
+
+.clearfix:after { 
+	visibility: hidden; 
+	display: block; 
+	font-size: 0; 
+	content: " "; 
+	clear: both; 
+	height: 0;
+}
+
+.clearfix { 
+	display: inline-block;
+}
+
+.clearfix { 
+	display: block; zoom: 1;
+}
+
+p {
+	font-size: 17px;
+  	color: black;
+}
+
+/*------------------------------------------------------
+************ Condiciones de Media Queries **************
+------------------------------------------------------*/
+
+@media screen and (max-width: 980px) {
+
+#contenedor-1 {
+	width: 95%;
+}
+
+#contenedor-2 {
+	width: 60%;
+	padding: 3% 4%;
+}
+
+#sidebar {
+	width: 30%;
+}
+
+#sidebar .widget {
+	padding: 8% 7%;
+	margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+
+#header {
+	height: auto;
+}
+
+#contenedor-2 {
+	width: auto;
+	float: none;
+	margin: 20px 0;
+}
+
+#sidebar {
+	width: 100%;
+	margin: 0;
+	float: none;
+}
+
+#sidebar .cuadro-login {
+	padding: 3% 4%;
+	margin: 0 0 10px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+}
