@@ -1,4 +1,0 @@
-LinkingNodes
-============
-
-Red Socia LinkingNodes
